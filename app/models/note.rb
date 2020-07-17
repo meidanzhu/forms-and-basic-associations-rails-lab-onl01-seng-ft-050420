@@ -1,3 +1,3 @@
-class Note < ActiveRecord::Base
-  # add associations here
+class Note <  ActiveRecord::Base
+  belongs_to :song
 end
